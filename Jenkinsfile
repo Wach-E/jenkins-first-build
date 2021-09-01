@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Hello Wach!\nWelcome to September!\nLet\'s build Pipelines and perform Orchestrations!\nShall we?'
+                echo 'Hello Obinna!\nThis is Wach updated build using SCM'
             }
         }
     }
