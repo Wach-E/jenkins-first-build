@@ -6,6 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo Building...'
+                echo 'Built with Webhook Trigger'
             }
         }
         stage('Test') {
