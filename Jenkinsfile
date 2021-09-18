@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo Building...'
-                echo 'Test trigger 2'
+                echo 'Test trigger 3'
             }
         }
         stage('Test') {
